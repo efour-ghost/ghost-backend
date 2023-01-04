@@ -1,5 +1,16 @@
 logging.level:
   root: info
+#spring:
+#  datasource:
+#    url:
+#    username:
+#    password:
+#  jpa:
+#    database-platform: org.hibernate.spatial.dialect.mysql.MySQL56InnoDBSpatialDialect
+#    hibernate:
+#      ddl-auto: update
+#    defer-datasource-initialization: true
+
 kis:
   url: ws://ops.koreainvestment.com
   port: 21000
@@ -7,6 +18,4 @@ kis:
   appsecret:
   custType: P
   content-type: utf-8
-  tr_id: H0STASP0
-
-
+  tr_id: H0STCNT0
